@@ -2141,7 +2141,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8044882535136260377}
   - component: {fileID: 4126712185247738723}
-  - component: {fileID: 3975651158379753667}
   m_Layer: 0
   m_Name: Man_Ghost_Halloween
   m_TagString: Untagged
@@ -2188,29 +2187,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!136 &3975651158379753667
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7273026040668760995}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.39942026
-  m_Height: 1.733861
-  m_Direction: 1
-  m_Center: {x: 0.010399659, y: 0.7511163, z: -0.0099999895}
 --- !u!1 &7319277419613068836
 GameObject:
   m_ObjectHideFlags: 0
