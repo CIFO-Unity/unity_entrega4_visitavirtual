@@ -14,9 +14,9 @@ public class LightningController : MonoBehaviour
     void Start()
     {
         lightningLight.enabled = false;
-        
-        // El primer trueno empieza a los 20 segundos
-        timer = 20f;
+
+        // El primer trueno empieza a los 12 segundos
+        timer = 10.5f;
     }
 
     void Update()
@@ -44,7 +44,7 @@ public class LightningController : MonoBehaviour
         lightningLight.enabled = true;
 
         // Duración del flash visual
-        yield return new WaitForSeconds(Random.Range(1.5f, 2.0f));
+        yield return new WaitForSeconds(Random.Range(2.5f, 3.5f));
 
         lightningLight.enabled = false;
 
