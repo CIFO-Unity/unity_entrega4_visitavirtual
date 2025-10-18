@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3365ca4f287af6d47ab9ffa44f941e57, type: 3}
+  m_Name: Whitelist
+  m_EditorClassIdentifier: 
+  folders:
+  - Assets/Import/Poly Halloween/Materials
+  - Assets/Import/Poly Halloween/Meshes/Nature/Rocks
+  - Assets/Import/Poly Halloween/Meshes/Halloween
+  - Assets/Import/Poly Halloween/Meshes
+  - Assets/Import/Poly Halloween/Prefabs
+  - Assets/Import/Poly Halloween/Scripts
+  - Assets/Import/Poly Halloween/_Demo Scenes/Terrain
+  - Assets/Import/Poly Halloween/Textures/Grass
+  - Assets/Import/Poly Halloween/Textures/Nature
+  - Assets/Import/Poly Halloween/Textures/Universal
+  - Assets/Import/Standard Assets/2D/Animations
+  - Assets/Import/Standard Assets/2D/Animator
+  - Assets/Import/Standard Assets/2D/Materials
+  - Assets/Import/Standard Assets/2D/PhysicsMaterials
+  - Assets/Import/Standard Assets/2D/Prefabs
+  - Assets/Import/Standard Assets/2D/Scripts
+  - Assets/Import/Standard Assets/Cameras
+  - Assets/Import/Standard Assets/Characters/FirstPersonCharacter
+  - Assets/Import/Standard Assets/Characters/RollerBall
+  - Assets/Import/Standard Assets/Characters/ThirdPersonCharacter
+  - Assets/Import/Standard Assets/CrossPlatformInput
+  - Assets/Import/Standard Assets/Effects/GlassRefraction/Materials
+  - Assets/Import/Standard Assets/Effects/GlassRefraction/Shaders
+  - Assets/Import/Standard Assets/Effects/GlassRefraction/Textures
+  - Assets/Import/Standard Assets/Effects/ImageEffects
+  - Assets/Import/Standard Assets/Effects/LightCookies/Textures
+  - Assets/Import/Standard Assets/Effects/LightFlares/Flares
+  - Assets/Import/Standard Assets/Effects/LightFlares/Materials
+  - Assets/Import/Standard Assets/Effects/LightFlares/Textures
+  - Assets/Import/Standard Assets/2D/Sprites
+  - Assets/Import/Standard Assets/Effects/Projectors
+  - Assets/Import/Standard Assets/Effects/ToonShading/Materials
+  - Assets/Import/Standard Assets/Effects/ToonShading/Shaders
+  - Assets/Import/Standard Assets/Effects/ToonShading/Textures
+  - Assets/Import/Standard Assets/Environment/SpeedTree/Broadleaf
+  - Assets/Import/Standard Assets/Environment/SpeedTree/Conifer
+  - Assets/Import/Standard Assets/Environment/SpeedTree/Palm
+  - Assets/Import/Standard Assets/Environment/TerrainAssets/BillboardTextures
+  - Assets/Import/Standard Assets/Environment/TerrainAssets/SurfaceTextures
+  - Assets/Import/Standard Assets/Environment/Water
+  - Assets/Import/Standard Assets/Fonts
+  - Assets/Import/Standard Assets/ParticleSystems
+  - Assets/Import/Standard Assets/PhysicsMaterials
+  - Assets/Import/Standard Assets/Prototyping/Materials
+  - Assets/Import/Standard Assets/Prototyping/Models
+  - Assets/Import/Standard Assets/Prototyping/Prefabs
+  - Assets/Import/Standard Assets/Prototyping/Shaders
+  - Assets/Import/Standard Assets/Prototyping/Textures
+  - Assets/Import/Standard Assets/Utility
+  - Assets/Import/Standard Assets/Vehicles/Aircraft
+  - Assets/Import/Standard Assets/Vehicles/Car
+  files:
+  - Assets/Import/Poly Halloween/Materials.meta
+  - Assets/Import/Poly Halloween/Meshes/Nature/Rocks.meta
+  - Assets/Import/Poly Halloween/Meshes/Halloween.meta
+  - Assets/Import/Poly Halloween/Meshes.meta
+  - Assets/Import/Poly Halloween/Prefabs.meta
+  - Assets/Import/Poly Halloween/Scripts.meta
+  - Assets/Import/Poly Halloween/_Demo Scenes/Terrain.meta
+  - Assets/Import/Poly Halloween/Textures/Grass.meta
+  - Assets/Import/Poly Halloween/Textures/Nature.meta
+  - Assets/Import/Poly Halloween/Textures/Universal.meta
+  - Assets/Import/Standard Assets/2D/Animations.meta
+  - Assets/Import/Standard Assets/2D/Animator.meta
+  - Assets/Import/Standard Assets/2D/Materials.meta
+  - Assets/Import/Standard Assets/2D/PhysicsMaterials.meta
+  - Assets/Import/Standard Assets/2D/Prefabs.meta
+  - Assets/Import/Standard Assets/2D/Scripts.meta
+  - Assets/Import/Standard Assets/Cameras.meta
+  - Assets/Import/Standard Assets/Characters/FirstPersonCharacter.meta
+  - Assets/Import/Standard Assets/Characters/RollerBall.meta
+  - Assets/Import/Standard Assets/Characters/ThirdPersonCharacter.meta
+  - Assets/Import/Standard Assets/CrossPlatformInput.meta
+  - Assets/Import/Standard Assets/Effects/GlassRefraction/Materials.meta
+  - Assets/Import/Standard Assets/Effects/GlassRefraction/Shaders.meta
+  - Assets/Import/Standard Assets/Effects/GlassRefraction/Textures.meta
+  - Assets/Import/Standard Assets/Effects/ImageEffects.meta
+  - Assets/Import/Standard Assets/Effects/LightCookies/Textures.meta
+  - Assets/Import/Standard Assets/Effects/LightFlares/Flares.meta
+  - Assets/Import/Standard Assets/Effects/LightFlares/Materials.meta
+  - Assets/Import/Standard Assets/Effects/LightFlares/Textures.meta
+  - Assets/Import/Standard Assets/2D/Sprites.meta
+  - Assets/Import/Standard Assets/Effects/Projectors.meta
+  - Assets/Import/Standard Assets/Effects/ToonShading/Materials.meta
+  - Assets/Import/Standard Assets/Effects/ToonShading/Shaders.meta
+  - Assets/Import/Standard Assets/Effects/ToonShading/Textures.meta
+  - Assets/Import/Standard Assets/Environment/SpeedTree/Broadleaf.meta
+  - Assets/Import/Standard Assets/Environment/SpeedTree/Conifer.meta
+  - Assets/Import/Standard Assets/Environment/SpeedTree/Palm.meta
+  - Assets/Import/Standard Assets/Environment/TerrainAssets/BillboardTextures.meta
+  - Assets/Import/Standard Assets/Environment/TerrainAssets/SurfaceTextures.meta
+  - Assets/Import/Standard Assets/Environment/Water.meta
+  - Assets/Import/Standard Assets/Fonts.meta
+  - Assets/Import/Standard Assets/ParticleSystems.meta
+  - Assets/Import/Standard Assets/PhysicsMaterials.meta
+  - Assets/Import/Standard Assets/Prototyping/Materials.meta
+  - Assets/Import/Standard Assets/Prototyping/Models.meta
+  - Assets/Import/Standard Assets/Prototyping/Prefabs.meta
+  - Assets/Import/Standard Assets/Prototyping/Shaders.meta
+  - Assets/Import/Standard Assets/Prototyping/Textures.meta
+  - Assets/Import/Standard Assets/Utility.meta
+  - Assets/Import/Standard Assets/Vehicles/Aircraft.meta
+  - Assets/Import/Standard Assets/Vehicles/Car.meta
