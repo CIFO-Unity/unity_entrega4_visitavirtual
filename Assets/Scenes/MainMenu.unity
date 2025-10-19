@@ -531,7 +531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.000023, y: -137.82}
+  m_AnchoredPosition: {x: 46.000023, y: -223}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210166969
@@ -555,7 +555,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.026432898, g: 0.048243325, b: 0.20754719, a: 0.4627451}
+    m_NormalColor: {r: 0.026432898, g: 0.048243325, b: 0.20754719, a: 0}
     m_HighlightedColor: {r: 0.02745098, g: 0.047058824, b: 0.20784314, a: 1}
     m_PressedColor: {r: 0.02745098, g: 0.047058824, b: 0.20784314, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -577,7 +577,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 210166970}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1667554840}
+        m_TargetAssemblyTypeName: BotonesClick, Assembly-CSharp
+        m_MethodName: SalirDelJuego
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &210166970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -815,7 +827,7 @@ GameObject:
   - component: {fileID: 343712464}
   - component: {fileID: 343712463}
   m_Layer: 5
-  m_Name: Button_Jugar
+  m_Name: Button_CambioCamaras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -838,8 +850,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46, y: 119.12}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 46, y: 209}
+  m_SizeDelta: {x: 20, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343712463
 MonoBehaviour:
@@ -862,7 +874,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.026432898, g: 0.048243325, b: 0.20754719, a: 0}
+    m_NormalColor: {r: 0.02745098, g: 0.047058824, b: 0.20784314, a: 0}
     m_HighlightedColor: {r: 0.02745098, g: 0.047058824, b: 0.20784314, a: 1}
     m_PressedColor: {r: 0.02745098, g: 0.047058824, b: 0.20784314, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -884,7 +896,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 343712464}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1667554840}
+        m_TargetAssemblyTypeName: BotonesClick, Assembly-CSharp
+        m_MethodName: CargarEscenaCambioCamaras
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &343712464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,7 +1151,7 @@ GameObject:
   - component: {fileID: 557187089}
   - component: {fileID: 557187088}
   m_Layer: 5
-  m_Name: Button_Creditos
+  m_Name: Button_PrimeraPersona
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1174,7 +1198,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.026432898, g: 0.048243325, b: 0.20754719, a: 0.4627451}
+    m_NormalColor: {r: 0.026432898, g: 0.048243325, b: 0.20754719, a: 0}
     m_HighlightedColor: {r: 0.02745098, g: 0.047058824, b: 0.20784314, a: 1}
     m_PressedColor: {r: 0.02745098, g: 0.047058824, b: 0.20784314, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1196,7 +1220,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 557187089}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1667554840}
+        m_TargetAssemblyTypeName: BotonesClick, Assembly-CSharp
+        m_MethodName: CargarEscenaPrimeraPersona
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &557187089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1432,7 +1468,7 @@ GameObject:
   - component: {fileID: 795105485}
   - component: {fileID: 795105484}
   m_Layer: 5
-  m_Name: Text_Jugar
+  m_Name: Text_CambioCamaras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1477,7 +1513,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CAMBIO CAMARAS
+  m_text: Cambio Camaras
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 19e0c4b13b0cc4ef28ee0baf530ec057, type: 2}
   m_sharedMaterial: {fileID: -3051173614164790311, guid: 19e0c4b13b0cc4ef28ee0baf530ec057, type: 2}
@@ -1504,8 +1540,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 63.62
+  m_fontSizeBase: 63.62
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -1615,7 +1651,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 231599325682483475, guid: 3c8772670f7f8e9478fa577f8630b365, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.66
+      value: -8.27
       objectReference: {fileID: 0}
     - target: {fileID: 231599325682483475, guid: 3c8772670f7f8e9478fa577f8630b365, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2874,7 +2910,7 @@ GameObject:
   - component: {fileID: 1624922992}
   - component: {fileID: 1624922991}
   m_Layer: 5
-  m_Name: Text_Creditos
+  m_Name: Text_PrimeraPersona
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2919,7 +2955,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PRIMERA PERSONA
+  m_text: Primera Persona
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 19e0c4b13b0cc4ef28ee0baf530ec057, type: 2}
   m_sharedMaterial: {fileID: -3051173614164790311, guid: 19e0c4b13b0cc4ef28ee0baf530ec057, type: 2}
@@ -2946,8 +2982,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 63.62
+  m_fontSizeBase: 63.62
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -3071,6 +3107,50 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2a77e2f136c52429667f8afd9c8201, type: 3}
+--- !u!1 &1667554839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667554841}
+  - component: {fileID: 1667554840}
+  m_Layer: 0
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1667554840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667554839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2b0a706d5cb7640ba4d0a822410aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1667554841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667554839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 295.5125, y: 219.89374, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1787397138 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 709964001204445252, guid: 8aa9f0eeaf116a8469f8cda342757ddb, type: 3}
@@ -3280,11 +3360,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 231599325682483475, guid: 3c8772670f7f8e9478fa577f8630b365, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.01
+      value: -18.21
       objectReference: {fileID: 0}
     - target: {fileID: 231599325682483475, guid: 3c8772670f7f8e9478fa577f8630b365, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 231599325682483475, guid: 3c8772670f7f8e9478fa577f8630b365, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3360,9 +3440,9 @@ RectTransform:
   m_Father: {fileID: 210166968}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: 3.15}
+  m_SizeDelta: {x: 160, y: 6.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1994326132
 MonoBehaviour:
@@ -3384,7 +3464,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SALIR
+  m_text: Salir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 19e0c4b13b0cc4ef28ee0baf530ec057, type: 2}
   m_sharedMaterial: {fileID: -3051173614164790311, guid: 19e0c4b13b0cc4ef28ee0baf530ec057, type: 2}
@@ -3411,8 +3491,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 63.62
+  m_fontSizeBase: 63.62
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -3720,3 +3800,4 @@ SceneRoots:
   - {fileID: 2096046443}
   - {fileID: 913849636}
   - {fileID: 3088813778396303560}
+  - {fileID: 1667554841}
