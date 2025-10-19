@@ -50,13 +50,6 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
         if (textoBoton == null)
         {
             textoBoton = GetComponentInChildren<TextMeshProUGUI>();
-            
-            // Si no hay TextMeshPro, buscar Text UI normal
-            if (textoBoton == null)
-            {
-                Debug.LogWarning($"No se encontró TextMeshProUGUI en {gameObject.name}. Buscando Text UI normal...");
-                // Aquí puedes añadir soporte para Text UI normal si lo necesitas
-            }
         }
 
         // Guardar valores iniciales
@@ -81,9 +74,6 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
         }
     }
 
-    /// <summary>
-    /// Se llama cuando el mouse entra en el área del botón
-    /// </summary>
     public void OnPointerEnter(PointerEventData eventData)
     {
         if (textoBoton == null) return;
@@ -97,13 +87,8 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
             textoBoton.fontSize = tamañoObjetivo;
             textoBoton.color = colorObjetivo;
         }
-
-        Debug.Log($"Hover ENTER en: {gameObject.name}");
     }
 
-    /// <summary>
-    /// Se llama cuando el mouse sale del área del botón
-    /// </summary>
     public void OnPointerExit(PointerEventData eventData)
     {
         if (textoBoton == null) return;
@@ -117,13 +102,8 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
             textoBoton.fontSize = tamañoObjetivo;
             textoBoton.color = colorObjetivo;
         }
-
-        Debug.Log($"Hover EXIT en: {gameObject.name}");
     }
 
-    /// <summary>
-    /// Resetea el texto al estado normal (útil si se desactiva el botón)
-    /// </summary>
     public void ResetearEstado()
     {
         if (textoBoton != null)
