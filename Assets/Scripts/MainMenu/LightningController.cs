@@ -39,17 +39,34 @@ public class LightningController : MonoBehaviour
         // Pequeña pausa antes del flash visual
         yield return new WaitForSeconds(Random.Range(0.1f, 0.3f));
 
-        // Intensidad aumentada para URP (visible pero no cegadora)
-        lightningLight.intensity = Random.Range(15f, 25f);
+        // PRIMER RAYO Intensidad aumentada para URP (visible pero no cegadora)
+        lightningLight.intensity = Random.Range(120f, 150f);
         lightningLight.enabled = true;
-
         // Duración del flash visual
-        yield return new WaitForSeconds(Random.Range(2.5f, 3.5f));
+        yield return new WaitForSeconds(Random.Range(2.0f, 3.0f));
+        // Apagamos el rayo
+        lightningLight.enabled = false;
+        // Duración de la luz apagada entre rayos
+        yield return new WaitForSeconds(Random.Range(0.1f, 0.3f));
 
+        // SEGUNDO RAYO
+        lightningLight.intensity = Random.Range(80f, 110f);
+        lightningLight.enabled = true;
+        // Duración del flash visual
+        yield return new WaitForSeconds(Random.Range(1.5f, 2.0f));
+        lightningLight.enabled = false;
+        // Duración de la luz apagada entre rayos
+        yield return new WaitForSeconds(Random.Range(0.1f, 0.3f));
+
+        // TERCER RAYO
+        lightningLight.intensity = Random.Range(80f, 110f);
+        lightningLight.enabled = true;
+        // Duración del flash visual
+        yield return new WaitForSeconds(Random.Range(1.5f, 2.0f));
         lightningLight.enabled = false;
 
         // Espera a que el audio termine completamente (32 segundos total)
-        yield return new WaitForSeconds(32f);
+        yield return new WaitForSeconds(34f);
 
         // Reinicia el timer para el próximo trueno
         timer = Random.Range(minTime, maxTime);
